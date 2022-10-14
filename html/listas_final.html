@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas en HTML</title>
+<style type="text/css">
+body header {
+	height: 400px;
+	background-color: #3F7064;
+	color: #D4A97A;
+	padding-top: 150px;
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body main section {
+	width: 800px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #7F9E95;
+}
+body nav {
+	background-color: #7F9E95;
+	height: 80px;
+}
+body main{
+	background-color: #CFF1B4;
+	padding: 20px;
+}
+body footer {
+	background-color: #3F7064;
+	height: 100px;
+	padding-top: 40px;
+}
+body footer h6 {
+	font-size: 18px;
+	text-align: center;
+}
+main section h2 {
+	padding-bottom: 20px;
+}
+body header h1 {
+	width: 800px;
+	height: 100px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 72px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+section ul , section ol{
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+section ul li {
+	list-style-type: square;
+}
+#lista_1 li {
+	list-style-type: lower-latin;
+}
+.lista_2 li {
+	list-style-image: url(Medios/Iconos/flor.png);
+}
+#menu {
+}
+#menu li {
+    padding: 30px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    background-color: #7B36AA;
+}
+</style>
+<link href="../CSS/Ejercicio 3.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Listas en HTML</h1>
+</header>
+<nav>
+	<ul id="menu">
+    <li><a href="Formatos de Texto.htm">Formatos de Texto</a> </li>
+    <li><a href="ENLACES.html" target="_blank">Enlaces</a></li>
+    <li><a href="TABLAS.html" target="_blank">Tablas</a></li>
+    <li><a href="IMAGENES.html" target="_blank">Imágenes</a></li>
+	<li><a href="AUDIOS.html" target="_blank">Audio</a></li>
+	<li><a href="VIDEOS.html" target="_blank">Videos</a></li>
+	<li><a href="FORMULARIOS.html" target="_blank">Formularios</a></li>
+	<li><a href="../INDEX.html" target="_blank">HOME</a></li>
+  </ul>
+	
+</nav>
+<main>
+  <section>
+    <h2>Lista desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi aperiam vitae laudantium optio illum suscipit in est quibusdam aliquid. Sint accusamus, aliquam doloremque velit cupiditate quod suscipit omnis assumenda tempora accusantium ut reprehenderit laborum ipsum labore fugit tenetur est minima quidem nam blanditiis ipsa, neque modi, sunt dolore beatae! Inventore, harum expedita a sapiente quo ratione fugiat fugit commodi, laborum vitae, praesentium neque unde voluptatibus officia, consequuntur ut quaerat iure doloribus placeat aliquam! Expedita recusandae quos sunt aliquam eum possimus suscipit nisi temporibus, laborum sed amet nulla molestias blanditiis obcaecati nemo animi magni, dolor assumenda minus corporis facere adipisci.</p>
+	  
+	  <ul class="lista_2">
+		  <li>Margaritas</li>
+		  <li>Rosas</li>
+		  <li>Violetas</li>
+		  <li>Claveles</li>
+		  <li>Hortencias</li>
+	  </ul>
+	  
+  </section>
+<section>
+    <h2>Lista Ordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus odio eos adipisci illo numquam, unde optio quibusdam nesciunt aliquid accusantium fugiat sit, eligendi iure maxime perspiciatis consectetur nobis sapiente ad?</p>
+    <ol>
+	 
+	 <li>Elías Gómez</li>
+	 <li>Rafaél Fernández</li>
+	 <li>José Calvario</li>
+	 <li>Guillermo Palacios</li>
+	 <li>Adrián Bastida</li> 
+	</ol> 
+	  
+ </section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi aperiam vitae laudantium optio illum suscipit in est quibusdam aliquid. Sint accusamus, aliquam doloremque velit cupiditate quod suscipit omnis assumenda tempora accusantium ut reprehenderit laborum ipsum labore fugit tenetur est minima quidem nam blanditiis ipsa, neque modi, sunt dolore beatae! Inventore, harum expedita a sapiente quo ratione fugiat fugit commodi.
+	 <ol>
+	 
+	 <li>Estados Unidos</li>
+	 <li>Canadá</li>
+	 <li>México</li>
+		 <ul>
+			 <li>Puebla</li>
+			 <li>Monterrey</li>
+			 <li>Veracruz</li>
+			 <li>Colima</li>
+			 <li>Oaxaca</li>
+		 </ul>
+	 <li>Chile</li>
+	 <li>Argentina</li> 
+	</ol> 
+	  
+    </section>
+  <section>
+    <h2>Lista modificada con una regla de identificador</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus odio eos adipisci illo numquam, unde optio quibusdam nesciunt aliquid accusantium fugiat sit, eligendi iure maxime perspiciatis consectetur nobis sapiente ad?</p>
+    <ul id="lista_1">
+      <li>Renault</li>
+      <li>VW</li>
+      <li>Ford</li>
+      <li>Kia</li>
+      <li>Honda</li>
+    </ul>
+  </section>
+  <section>
+    <h2>Lista desordenada</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eligendi aperiam vitae laudantium optio illum suscipit in est quibusdam aliquid. Sint accusamus, aliquam doloremque velit cupiditate quod suscipit omnis assumenda tempora accusantium ut reprehenderit laborum ipsum labore fugit tenetur est minima quidem nam blanditiis ipsa, neque modi, sunt dolore beatae! Inventore, harum expedita a sapiente quo ratione fugiat fugit commodi, laborum vitae, praesentium neque unde voluptatibus officia, consequuntur ut quaerat iure doloribus placeat aliquam! Expedita recusandae quos sunt aliquam eum possimus suscipit nisi temporibus, laborum sed amet nulla molestias blanditiis obcaecati nemo animi magni, dolor assumenda minus corporis facere adipisci.</p>
+    <ul class="lista_2">
+      <li>Margaritas</li>
+      <li>Rosas</li>
+      <li>Violetas</li>
+      <li>Claveles</li>
+      <li>Hortencias</li>
+    </ul>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Zaira Guadalupe Hernández López</h6>
+</footer>
+</body>
+</html>
